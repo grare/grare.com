@@ -1,4 +1,4 @@
-﻿(function($){
+(function($){
 	"use strict"; // Start of use strict
 
 	$(document).ready(function() {

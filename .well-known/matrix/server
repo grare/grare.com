@@ -1,3 +1,4 @@
 {
-  "m.server": "matrix.grare.com:8443"
+	"m.server": "matrix.grare.com:8448"
 }
+

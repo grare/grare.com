@@ -1,27 +1,21 @@
 {
-	"m.homeserver": {
-		"base_url": "https://matrix.grare.com"
-	}
-,
-	"m.identity_server": {
-		"base_url": "https://matrix.grare.com"
-	}
-,
-	"m.integrations": {
-		"managers": [
-			{
-				"api_url": "https://dimension.grare.com/api/v1/scalar",
-				"ui_url": "https://dimension.grare.com/element"
-			}
-		]
-	}
-	,
-	"io.element.e2ee": {
-		"default": true,
-		"secure_backup_required": false,
-		"secure_backup_setup_methods": []
-	},
-	"im.vector.riot.e2ee": {
-		"default": true
-	}
+    "im.vector.riot.e2ee": {
+        "default": true
+    },
+    "io.element.e2ee": {
+        "default": true,
+        "secure_backup_required": false,
+        "secure_backup_setup_methods": []
+    },
+    "m.homeserver": {
+        "base_url": "https://matrix.grare.com"
+    },
+    "m.integrations": {
+        "managers": [
+            {
+                "api_url": "https://dimension.grare.com/api/v1/scalar",
+                "ui_url": "https://dimension.grare.com/element"
+            }
+        ]
+    }
 }

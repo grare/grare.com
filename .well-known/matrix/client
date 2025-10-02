@@ -1,6 +1,8 @@
 {
     "cc.etke.synapse-admin": {
         "asManagedUsers": [],
+        "corsCredentials": "same-origin",
+        "externalAuthProvider": false,
         "menu": [],
         "restrictBaseUrl": "https://matrix.grare.com"
     },

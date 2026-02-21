@@ -8,13 +8,5 @@
     },
     "m.homeserver": {
         "base_url": "https://matrix.grare.com"
-    },
-    "m.integrations": {
-        "managers": [
-            {
-                "api_url": "https://dimension.grare.com/api/v1/scalar",
-                "ui_url": "https://dimension.grare.com/element"
-            }
-        ]
     }
 }
